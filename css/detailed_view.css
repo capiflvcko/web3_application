@@ -1,0 +1,51 @@
+/* CSS for the DetailedView page */
+
+/* Container for the DetailedView */
+#detailed-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* University name */
+#university-name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* University location */
+#university-location {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Inscribed data */
+#inscribed-data {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Button to return to search results */
+#return-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Button to navigate to InscribeData page */
+#inscribe-data-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 20px;
+}

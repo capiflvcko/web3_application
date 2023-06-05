@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Inscribe Data</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/inscribe_data.css">
+</head>
+<body>
+    <header>
+        <h1>Inscribe University Data</h1>
+    </header>
+    <main>
+        <form>
+            <label for="university-name">University Name:</label>
+            <input type="text" id="university-name" name="university-name" required>
+            <br>
+            <label for="university-location">University Location:</label>
+            <input type="text" id="university-location" name="university-location" required>
+            <br>
+            <label for="founding-date">Founding Date:</label>
+            <input type="date" id="founding-date" name="founding-date" required>
+            <br>
+            <label for="notable-alumni">Notable Alumni:</label>
+            <textarea id="notable-alumni" name="notable-alumni" rows="4" cols="50" required></textarea>
+            <br>
+            <label for="academic-strengths">Academic Strengths:</label>
+            <textarea id="academic-strengths" name="academic-strengths" rows="4" cols="50" required></textarea>
+            <br>
+            <button type="submit" id="confirm-inscription-button">Confirm Inscription</button>
+        </form>
+    </main>
+    <script src="./js/web3.min.js"></script>
+    <script src="./js/brc20_tokens.js"></script>
+    <script src="./js/psbt_marketplace.js"></script>
+    <script src="./js/inscribe_data.js"></script>
+</body>
+</html>

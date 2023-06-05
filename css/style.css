@@ -1,0 +1,152 @@
+/* CSS for the style of the application */
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+/* Main page styles */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.search-container input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.search-container button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.result-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.result-card {
+  background-color: #f5f5f5;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 300px;
+}
+
+.result-card h2 {
+  margin-top: 0;
+}
+
+.result-card p {
+  margin: 0.5rem 0;
+}
+
+/* Detailed view styles */
+.detailed-view-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.detailed-view-card {
+  background-color: #f5f5f5;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  padding: 1rem;
+  width: 600px;
+}
+
+.detailed-view-card h2 {
+  margin-top: 0;
+}
+
+.detailed-view-card p {
+  margin: 0.5rem 0;
+}
+
+/* Inscribe data styles */
+.inscribe-data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+.inscribe-data-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+}
+
+.inscribe-data-form label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.inscribe-data-form input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.inscribe-data-form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}

@@ -1,0 +1,61 @@
+/* CSS for the main page of the Web3 application */
+
+/* Styling for the search bar */
+.searchBar {
+  width: 80%;
+  height: 40px;
+  font-size: 1.2rem;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+/* Styling for the search button */
+.searchButton {
+  width: 15%;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+/* Styling for the search results */
+.searchResult {
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the university name in the search results */
+.universityName {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for the university location in the search results */
+.universityLocation {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* Styling for the inscribe data button */
+.inscribeDataButton {
+  width: 80%;
+  height: 40px;
+  font-size: 1.2rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin: 20px auto;
+  cursor: pointer;
+}
